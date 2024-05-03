@@ -1,25 +1,30 @@
-import logo from './logo.svg';
-import './App.css';
-
-function App() {
+import React from 'react';
+import Header from './components/Header/Header';
+import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
+import { Carousel } from 'react-responsive-carousel';
+import chicken from "./images/Chicken.png"
+import meat from "./images/Meat.png"
+import Customisation from './components/Customisation/customisation';
+import Footer from './components/Footer/Footer';
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+     <Header />
+     <Carousel>
+                <div>
+                    <img src={chicken} />
+                    <p className="legend"> Chicken</p>
+                </div>
+                <div>
+                    <img src={meat}/>
+                    <p className="legend">Meat</p>
+                </div>
+                <hr/>
+            </Carousel>
+<Customisation/>
+<Footer/>
     </div>
   );
-}
+};
 
 export default App;

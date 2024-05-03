@@ -1,0 +1,64 @@
+.contact{
+    display: flex;
+flex-direction: column;
+}
+
+.contact-whats{
+    display: flex;
+}
+
+.deliver{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    gap: 1%;
+}
+
+.deliver p{
+    color: red;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.deliver-text{
+    color: green;
+    display: flex;
+    justify-content: flex-end;
+}
+.deliver-text1{
+    color: black;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.pujj-bold{
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.footer{
+    margin: 5%;
+}
+.social-media{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1%;
+}
+
+@media only screen and (max-width: 767px) {
+
+    .deliver p{
+        font-size: 16px;
+    }
+    .contact-whats{
+        height: 2vh;
+    }
+    .deliver-text img{
+        width: 20%;
+        height: 76%;
+    }
+    .social-media img{
+        width: 4%;
+    }
+}

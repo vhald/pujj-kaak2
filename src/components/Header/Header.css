@@ -1,0 +1,44 @@
+.sticky-header {
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   margin-top: 8%;
+  }
+  .heading{
+    font-Family: Montserrat;
+     color: red;
+     font-size: 52px;
+     font-weight: 600;
+  }
+  .heading1{
+    font-Family: Montserrat;
+     color: red;
+     font-size: 32px;
+     margin-top: -1%;
+  }
+  .hero-section{
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .steps{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5%;
+  }
+  .step-counts{
+    display: flex;
+    align-items: center;
+    gap: 2%;
+    font-size: 24px;
+    font-weight: 600;
+  }
+
+  .step-counts p{
+    background-color: red;
+    color: #fff;
+    font-size: 52px;
+  }

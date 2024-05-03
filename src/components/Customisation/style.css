@@ -1,0 +1,40 @@
+.custom-text{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .carousel .slide img{
+    width: 60vw;
+    height: 90vh;
+  }
+
+  .heading2{
+    font-Family: Montserrat;
+    font-Style:italic;
+    margin-top: -1%;
+  }
+
+  .heading3{
+    font-Family: Montserrat;
+    font-Style:italic;
+    margin-top: -1%;
+  }
+
+
+  @media only screen and (max-width: 767px) {
+
+    .carousel .slide img{
+      width: 60vw;
+      height: 50vh;
+    }
+    .carousel .slide .legend {
+      bottom: 14px
+    }
+
+  .heading2{
+    margin-top: -6%;
+  }
+  .heading3{
+    margin-top: -5%;
+  }
+  }
